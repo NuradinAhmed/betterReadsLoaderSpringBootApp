@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BetterreadsDataLoaderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BetterreaddataloaderApplication.class, args);
+		SpringApplication.run(BetterreadsDataLoaderApplication.class, args);
 	}
 
 }
