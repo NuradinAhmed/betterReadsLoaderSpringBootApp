@@ -1,9 +1,14 @@
+
+datadump.location:
+  author: /Users/NuradinAhmed/Documents/Builds/ol_dump_authors_2021-10-20.txt
+  works: /Users/NuradinAhmed/Documents/Builds/ol_dump_works_2021-10-20.txt
+
 spring:
   data:
     cassandra:
       keyspace-name: main
-      username: <username>
-      password: <secret>
+      username: BzJGIzCFOFWFanSpHcgINnvZ                  #<username>
+      password: ZasIyWJhPnm1E+Kx155bXOa2Mu5ZeIRknplDeDIEISZkrBEKTRTTZc0_+6+rDlpA+bUXJvTZNyvbR.1zj,2EN_iQNHtuGY2g15-rqEOC,4tUnaxR18jOiKR668dY6SOf            #<secret>
       schema-action: create-if-not-exists
       request:
         timeout: 10s
@@ -20,10 +25,10 @@ datastax.astra:
 
 
 astra.db:
-    id: <db-id>
+    id:  b5424825-fc6f-4448-bc20-399a32a11c9d                                       #<db-id>
     region: us-west1
     keyspace: main
-    application.token: <token>
+    application.token: AstraCS:BzJGIzCFOFWFanSpHcgINnvZ:83f8f59b073e4b16c5bdb292542829a2e0b706420a7eed99bd47d571caa79b60                          #<token>
 
 
  
