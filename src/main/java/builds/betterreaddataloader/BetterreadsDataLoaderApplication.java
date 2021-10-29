@@ -185,7 +185,7 @@ public class BetterreadsDataLoaderApplication {
 							String authorId = authorJsonArray.getJSONObject(i). // and finally the result put into field
 																				// authroId of string.
 							getJSONObject("author"). // then am gong to get the JSON object within it named author
-							getString("Key"). // and and then from there get the string key -
+							getString("key"). // and and then from there get the string key -
 							replace("/authors/", ""); // to get the key we need to replace "/authors/" infront of it
 														// with empty string/character and only get the key after it .
 
